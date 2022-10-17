@@ -18,10 +18,10 @@ and also the reference to the code is not direct.
 
 ### The format and content of the commit message
 
-👁 A commit message shall consist of a _short first line_ (subject)
+- [ ] A commit message shall consist of a _short first line_ (subject)
 and optionally, an empty line followed by a detailed _description_ in multiple lines.
 
-👁 The _short first line_ of the commit message
+- [ ] The _short first line_ of the commit message
  - shall describe the goal or the reason of the change in
    - plain English and
    - imperative present;
@@ -45,9 +45,9 @@ Examples:
 of the [Linux kernel](https://en.wikipedia.org/wiki/Linux_kernel),
 therefore further good examples can be found in the [Linux kernel repository](https://github.com/torvalds/linux/commits/master).
 
-👁 The detailed description shall be written in plain English _with_ punctuation.
+- [ ] The detailed description shall be written in plain English _with_ punctuation.
 
-👁 Avoid
+- [ ] Avoid
  - using verbs with general meaning, e.g.: "update", "improve", these are only for last resort in trivial cases;
  - meaningless or too general description, e.g.: "fix the problem", "fix logging";
  - describing what is also visible in the change.
@@ -55,7 +55,7 @@ therefore further good examples can be found in the [Linux kernel repository](ht
 
 ## Rule of thumb in committing
 
-👁 One commit shall include only the simple described change.
+- [ ] One commit shall include only the simple described change.
 
 The following actions, neither the same type, should not be mixed, commit them separately:
  - non trivial changes keeping the same functionality (refactor)
@@ -66,12 +66,12 @@ The following actions, neither the same type, should not be mixed, commit them s
 When the first short line cannot be composed briefly and clearly,
 it indicates that some of the above actions may be mixed.
 
-👁 The description of the goal and the reason of adding or modifying some code
+- [ ] The description of the goal and the reason of adding or modifying some code
 should be placed into the commit messages, but not into the source code.
 
-👁 Commented out code must not be committed, it must be deleted.
+- [ ] Commented out code must not be committed, it must be deleted.
 
-👁 Commits to be reviewed should contain finished work.
+- [ ] Commits to be reviewed should contain finished work.
 Temporary modification (e.g. implementation) of the same lines of the same file
 should be squashed into a single commit before code review.
 
@@ -83,11 +83,11 @@ So, during implementation phase, there is no need to make perfect commits.
 Right before code review, it is enough to fine tune the topic branch
 to help the reviewer and to make the git history clear and helpful for later use.
 
-👁 The aim is to get the _minimum number of commits_ each of them having the _minimal scope_:
+- [ ] The aim is to get the _minimum number of commits_ each of them having the _minimal scope_:
  - Temporary and fixup commits should be _squashed_;
  - Commits having multiple scope should be _split_.
 
-👁 Also commit messages can be easily _reworded_.
+- [ ] Also commit messages can be easily _reworded_.
 
 See also: [Git rebase in depth].
 
@@ -101,19 +101,19 @@ Pros:
  - helps knowing code base;
  - helps learning.
 
-👁 The _developer_, who has changed the code,
+- [ ] The _developer_, who has changed the code,
 
 shall ask the _reviewer_ for reviewing the changes.
 
-👁 The developer has the responsibility to manage the review process.
+- [ ] The developer has the responsibility to manage the review process.
 
-👁 The reviewer shall check
+- [ ] The reviewer shall check
  - the format of the commit messages;
  - the content of the commits, the changes;
  - that the commit messages are truly describe the changes;
  - the complexity of the commits, one commit should have one simple goal.
 
-👁 The review comments should be constructive:
+- [ ] The review comments should be constructive:
  - Give suggestions, if it is possible;
  - Give a reason for the suggestion, if it is not trivial;
  - Give a reason why rejecting a suggestion;
@@ -121,9 +121,9 @@ shall ask the _reviewer_ for reviewing the changes.
  - Avoid emotional opinion, e.g.: "I do not like it", "it is strange", "you are not competent";
  - Avoid suggestions based on personal preferences in a solution or readability.
 
-👁 The review comments shall be reacted.
+- [ ] The review comments shall be reacted.
 
-👁 A suggestion shall be accepted, if there is no reason to reject it.
+- [ ] A suggestion shall be accepted, if there is no reason to reject it.
 
 
 ## References
